@@ -1,19 +1,22 @@
 # Red-vs-Blue-team-project
 ![image](https://user-images.githubusercontent.com/93951164/172183135-bcba72f9-8218-4347-b0a1-b3357e42fb22.png)
 
-![image](https://user-images.githubusercontent.com/93951164/172183197-81b84eb1-97b2-47d5-a579-1c5c00751794.png)
-
 Red Team Environment
+![image](https://user-images.githubusercontent.com/93951164/172183644-704fc94b-0767-4825-98a4-cc7e2236fb7c.png)
 
 
 Blue Team Environment
+![image](https://user-images.githubusercontent.com/93951164/172183602-e05f67a5-c68e-4f60-a6e7-8f309fdcfa65.png)
+
+
 
 RED TEAM - Penetration Test
 EXPLOITATION
 Discover target IP:
 To discover the target ip:
 netdiscover -r <ip subnet>
- 
+ ![image](https://user-images.githubusercontent.com/93951164/172183767-b4d872a5-8284-4cef-8715-17feaaf50a54.png)
+
 
 
 IP
@@ -38,12 +41,15 @@ Port 80
 HTTP
 Apache httpd 2.4.29
 
+![image](https://user-images.githubusercontent.com/93951164/172183948-c5a858fd-f171-485a-a987-76f4cd11ae14.png)
 
+![image](https://user-images.githubusercontent.com/93951164/172183970-515cea98-3528-4b92-aa5e-9c04972e3091.png)
 
 Aggressive scan:
 nmap -A -vvv 192.168.1.105
  
 A simple aggressive scan reveals a web server directory structure on tcp port 80, which is a http port, and two potential usernames of employees – ashton and hannah (which will be more relevant for brute forcing later):
+![image](https://user-images.githubusercontent.com/93951164/172184023-ef8199ba-6485-4260-ade2-a03d25def67e.png)
 
 
 Navigating the Webserver:
