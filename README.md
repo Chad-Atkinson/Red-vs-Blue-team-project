@@ -51,6 +51,7 @@ nmap -A -vvv 192.168.1.105
 A simple aggressive scan reveals a web server directory structure on tcp port 80, which is a http port, and two potential usernames of employees – ashton and hannah (which will be more relevant for brute forcing later):
 ![image](https://user-images.githubusercontent.com/93951164/172184023-ef8199ba-6485-4260-ade2-a03d25def67e.png)
 
+![image](https://user-images.githubusercontent.com/93951164/172422198-48f6259d-af5f-4e98-9495-46046796c7b1.png)
 
 Navigating the Webserver:
 As this is a webserver, we can investigate further from a browser in the attacker machine:
